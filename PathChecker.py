@@ -6,19 +6,19 @@ AC=int(input("Enter value of AC: "))
 BD=int(input("Enter value of BD: "))
 
 mi=str("DA")
-midn=DA
+midn=int(DA)
 if (AB+BD)<midn:
     mi="AB+BD"
-    midn=AB+BD
+    midn=int(AB+BD)
 if (AC+CD)<midn:
-    mi="AC+BD"
-    midn=AC+BD
+    mi="AC+CD"
+    midn=int(AC+CD)
 if (AB+BC+CD)<midn:
     mi="AB+BC+BD"
-    midn=AB+BC+CD
+    midn=int(AB+BC+CD)
 if (AC+BC+BD)<midn:
     mi="AC+BC+BD"
-    midn=AC+BC+BD
+    midn=int(AC+BC+BD)
 
 print(mi)
 print(midn)
