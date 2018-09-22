@@ -23,6 +23,3 @@ for i in range(0,n):
 print("Process\tBurst\tWaiting\tTurnAround")
 for i in range(0,n):
     print("P",i+1,"\t",b[i],"\t",w[i],"\t",t[i])
-
-    
-    
